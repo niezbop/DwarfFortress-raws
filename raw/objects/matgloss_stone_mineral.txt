@@ -202,6 +202,7 @@ ore of bismuth
 [NAME:bismuthinite][COLOR:7:7:1][TILE:'%']
 [BASIC_COLOR:7:0]
 [ENVIRONMENT_SPEC:GRANITE:CLUSTER_SMALL:100]
+[ITEM_SYMBOL:'*']
 [METAL_ORE:BISMUTH:100]
 
 arsenic sulfide
@@ -252,6 +253,7 @@ another titanium ore, same comment applies
 [MATGLOSS_STONE:MAGNETITE]
 [NAME:magnetite][COLOR:0:7:1][TILE:'~']
 [ENVIRONMENT:SEDIMENTARY:CLUSTER:100]
+[ITEM_SYMBOL:'*']
 [METAL_ORE:IRON:100]
 [SOLID_DENSITY:5046]
 [VALUE:8]
@@ -284,8 +286,9 @@ bauxite melts around 2000C, so it's not practical to smelt it for aluminum (magm
 
 aluminum can occasionally be found in its free form in environments that like oxygen, volcanic muds were mentioned
 [MATGLOSS_STONE:ALUMINUM]
-[NAME:aluminum][COLOR:7:7:1][TILE:'^']
+[NAME:native aluminum][COLOR:7:7:1][TILE:'^']
 [ENVIRONMENT:IGNEOUS_EXTRUSIVE:CLUSTER_SMALL:100]
+[ITEM_SYMBOL:'*']
 [METAL_ORE:ALUMINUM:100]
 [SOLID_DENSITY:2700]
 [VALUE:40]
@@ -337,6 +340,7 @@ main constituent of limestone, but can be found as crystal
 [REACTION_CLASS:FLUX]
 [ENVIRONMENT_SPEC:LIMESTONE:CLUSTER_SMALL:100]
 [ENVIRONMENT_SPEC:MARBLE:CLUSTER_SMALL:100]
+[VALUE:2]
 
 potassium nitrate, good for fertilizer and blowing things up with carbon and sulfur
 [MATGLOSS_STONE:SALTPETER]
